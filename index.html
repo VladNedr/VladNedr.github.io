@@ -4,12 +4,14 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>BootstrapUber</title>
+    <title>BootstrapUber</title>  
+    <link rel="icon" href="icon/favicon/favicon.ico.png" type="image/x-icon">
     <link rel="stylesheet" href="<link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700;900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="css/font.css.css">
     <link rel="stylesheet" href="css/style.min.css">
   </head>
   <body>
@@ -17,29 +19,35 @@
       <nav>
           <div class="container">
             <ul class="menu">
-              <li class="list_item"><a href="#" class="menu_link">Главная</a></li>
-              <li class="list_item"><a href="#" class="menu_link">Со своим автомобилем</a></li>
-              <li class="list_item"><a href="#" class="menu_link">На автомобили компании</a></li>
-              <li class="list_item"><a href="#" class="menu_link">Требования</a></li>
-              <li class="list_item"><a href="#" class="menu_link">Контакты</a></li>
-              <li class="list_item"><a href="#" class="menu_link">Оставить заявку</a></li>
+              <li class="menu_item"><a href="#" class="menu_link">Главная</a></li>
+              <li class="menu_item"><a href="#plus" class="menu_link">Со своим автомобилем</a></li>
+              <li class="menu_item"><a href="#require" class="menu_link">На автомобили компании</a></li>
+              <li class="menu_item"><a href="#require" class="menu_link">Требования</a></li>
+              <li class="menu_item"><a href="#mobile" class="menu_link">Контакты</a></li>
+              <li class="menu_item"><a href="#footer" class="menu_link">Оставить заявку</a></li>
             </ul>
+        </div>
+        <div class="hamburger">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
       </nav>
 
       <div class="subheader">
         <div class="container">
           <div class="row">
-            <div class="col-md-4 offset-md-1">
+            <div class=" col-6 col-md-4 offset-md-1">
               <a href="#" class="subheader_logo">
                 <img src="icon/logo.png" alt="logo"></a>
               <div class="subheader_official">Официальный партнер Uber в Москве</div>
             </div>
-            <div class="col-md-2 offset-md-2">
+            <div class="xs-hidden col-md-3 offset-md-1 col-xl-2 offset-xl-2">
               <div class="subheader_call">Звоните нам ежедневно</div>
               <a href="tel:+74957970988" class="subheader_phone">8 495 797 09 88</a>
             </div>
-            <div class="col-md-2 ">
+            <div class=" col-6 col-md-3 col-lg-2 ">
+              <a href="tel:+74957970988" class="xs-visible subheader_phone">8 495 797 09 88</a>
               <button class="subheader_btn">Заказать звонок</button>
             </div>
           </div>
@@ -49,7 +57,7 @@
     <section class="promo">
       <div class="container">
         <div class="row">
-          <div class="col-md-10 offset-md-1">
+          <div class="col-md-12 offset-md-0 col-lg-10 offset-lg-1">
             <h1 class="promo_header">Компания Uber Partners!</h1>
             <h2 class="promo_subheader">Приглашаем водителей!На своем авто!</h2>
             <div class="promo_descr">
@@ -65,12 +73,12 @@
         </div>
       </div>
     </section>
-    <section class="plus">
+    <section class="plus" id="plus">
       <div class="container">
         <div class="label">преимущества</div>
-        <h2 class="title">8 причин начать работать с нами</h2>
+        <h2 class="title plus_title">8 причин начать работать с нами</h2>
         <div class="row">
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/start1.png" alt="1" class="plus_img">
@@ -81,7 +89,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/start2.png" alt="2" class="plus_img">
@@ -92,7 +100,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/start3.png" alt="3" class="plus_img">
@@ -103,7 +111,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/start_phone4.png" alt="4" class="plus_img">
@@ -114,7 +122,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/startright1.png" alt="5" class="plus_img">
@@ -125,7 +133,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/startright2.png" alt="6" class="plus_img">
@@ -136,7 +144,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/startright3.png" alt="7" class="plus_img">
@@ -147,7 +155,7 @@
               </div>
             </div>
           </div>
-          <div class="col-6">
+          <div class="col-md-6">
             <div class="plus_block">
               <div class="plus_round">
                 <img src="icon/start/startright4.png" alt="8" class="plus_img">
@@ -162,11 +170,11 @@
       </div>
     </section>
     
-    <section class="mobile">
+    <section class="mobile" id="mobile">
       <div class="container">
         <div class="label">Возможности</div>
         <div class="title">мобильное приложение убер</div>
-        <div class="subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
+        <div class="subtitle mobile_subtitle">Сделайте заказ, совершите поездку и оплатите ее стоимость, используя свой мобильный телефон</div>
         <div class="row">
           <div class="col-md-4">
             <div class="mobile_item mobile_item_1 ">
@@ -210,22 +218,23 @@
 
     <section class="car">
       <div class="container-fluid">
-        <div class="black">
+        <div class="car_black">
           <div class="label">Возможности</div>
-          <div class="title">Выбор - отличная штука!</div>
-          <div class="subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
-          <img src="img/cars_bg.png" alt="car" class="car_img">
+          <div class="title car_title">Выбор - отличная штука!</div>
+          <div class="subtitle car_subtitle">Закажите автомобиль, который подходит вам по стилю и бюджету</div>
+          <img src="img/cars_bg.png" alt="car" class="car_black_cars">
+          <div class="xs_descr">Машины на каждый день. <br> Лучше, быстрее и дешевле, чем такси</div>
         </div>
-        <div class="white">
-            <div class="white_descr">Машины на каждый день. <br> Лучше, быстрее и дешевле, чем такси</div>
+        <div class="car_white">
+            <div class="car_white_descr">Машины на каждый день. <br> Лучше, быстрее и дешевле, чем такси</div>
         </div>
       </div>
     </section>
 
-    <section class="require">
+    <section class="require" id="require">
       <div class="container">
         <div class="label">возможности</div>
-        <div class="title">условия и требования</div>
+        <div class="title require_titles">условия и требования</div>
         <div class="row">
           <div class="col-md-6">
             <div class="require_block">
@@ -284,19 +293,60 @@
     <section class="world">
       <div class="container">
         <div class="label">Города</div>
-        <div class="title">По всему миру</div>
+        <div class="title world_title">По всему миру</div>
         <div class="subtitle">Мы в вашем городе и по всему миру</div>
         <a href="#" class="world_link">посмотреть все города</a>
       </div>
     </section>
 
-    <section class="footer">
-      <div class="container-fluid">
-       <hr class="world_hr">
-       <div class="block_footer">
-        .round
-       </div>
+    <footer class="footer" id="footer">
+      <hr class="footer_hr">
+      <div class="footer_block">
+        <div class="footer_around">          
+            <a href="#" class="footer_around_link">
+              <span class="icon-facebook"></span>
+            </a>         
+            <a href="#" class="footer_around_link">
+              <span class="icon-instagram"></span>
+            </a>       
+             <a href="#" class="footer_around_link">
+              <span class="icon-twitter"></span>
+             </a>          
+            <a href="" class="footer_around_link">
+              <span class="icon-youtube"></span>
+            </a>
+        </div>
+        <div class="footer_navbar">
+          <div class="footer_menu">
+            <a href="#" class="footer_menu_item">НА ГЛАВНУЮ</a>
+            <a href="#" class="footer_menu_item">ГОРОДА</a>
+            <a href="#" class="footer_menu_item">ДЛЯ ВОДИТЕЛЕЙ</a>
+          </div>
+          <div class="footer_support">
+            <a href="#" class="footer_support_links">ЦЕНТР ПОДДЕРЖКИ</a>
+            <a href="#" class="footer_support_links">ВАКАНСИИ</a>
+            <a href="#" class="footer_support_links">РАЗРАБОТЧИКИ</a>
+            <a href="#" class="footer_support_links">БЛОГ</a>
+            <a href="#" class="footer_support_links">О НАС</a>
+          </div>
+          <div class="footer_languages">
+            <a href="#" class="footer_languages_link">Русский</a>  
+          </div>
+        </div>
+        <div class="footer_markets">
+          <a href="#">
+            <img src="icon/google_play.png" alt="google play">
+          </a>
+          <a href="#">
+            <img src="icon/windows_store.png" alt="windows store">
+          </a>
+          <a href="#">
+            <img src="icon/app_store.png" alt="app store">
+          </a>
+        </div>
       </div>
-    </section>
+    </footer>
+
+  <script src="js/script.js"></script>
   </body>
 </html>
